@@ -1,0 +1,30 @@
+.previewDetail table {
+    border-collapse: initial !important;
+    min-height: 100% !important;
+}
+.previewDetail td table {
+   min-height:100% !important;
+}
+
+.previewDetail table img, .previewDetail table iframe{
+    max-width: 100%;
+    vertical-align: top;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .previewDetail table, .previewDetail tr, .previewDetail td, .previewDetail tbody {
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom: 10px !important
+    }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .previewDetail table, .previewDetail tr, .previewDetail tbody {
+        padding: 0;} 
+}
+
+    

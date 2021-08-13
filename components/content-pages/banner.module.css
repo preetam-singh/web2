@@ -1,0 +1,62 @@
+.banner {
+    /* background-image: url("https://images.netcomlearning.com/cms/banner-d841.webp"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.bannerHeading {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 34px;
+    z-index: 3;
+}
+
+@media screen and (max-width: 1600px) {
+    .banner {
+      height: 150px;
+    }
+}
+@media screen and (max-width: 1440px) {
+  .bannerHeading {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 1366px) {
+  
+   
+    .bannerHeading {
+        font-size: 28px;
+    }
+    .sectionTitle {
+        font-size: 26px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        position: relative;
+        height: 150px;
+        top: 90px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+         
+    .bannerHeading {
+        font-size: 1.2rem;
+        line-height: 35px;
+    }
+    .banner {
+        height: 100px;
+        top: 70px !important;
+        position: relative;
+    }
+}

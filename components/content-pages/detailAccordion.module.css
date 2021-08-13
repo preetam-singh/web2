@@ -1,0 +1,20 @@
+.card-header button {
+    padding: 0 !important;
+}
+.card-header button::after{
+    content: none;
+}
+.card-header button div {
+    width: 100%;
+    padding: 10px;
+    padding: 5px 24px;
+    background: #075da8;
+    color: white;
+}
+
+.icon-plus:before {
+    content: "\ea0a";
+}
+.icon-minus:before {
+content: "\ea0b";
+}

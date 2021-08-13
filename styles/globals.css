@@ -1,16 +1,132 @@
-html,
-body {
-  padding: 0;
+/* @font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?1vqoi2');
+  src:  url('../fonts/icomoon.eot?1vqoi2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1vqoi2') format('truetype'),
+    url('../fonts/icomoon.woff?1vqoi2') format('woff'),
+    url('../fonts/icomoon.svg?1vqoi2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon-moon {
+  font-family: 'icomoon' !important;
+  font-size: 14px;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}  */
+
+
+.icon-arrow-up2:before {
+content: "\ea3a";
+}
+
+
+.home-headings {
+font-size: 26px;
+color: #2d3e50;
+font-weight: 500;
+margin-bottom: 20px;
+text-align: center;
+}
+
+body, html {
+  color: #000000;
+  height: 100%;
+  width:100%;
+  font-display: swap;
+  font-family:  'Open Sans', sans-serif !important;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.container-fluid {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 
-* {
-  box-sizing: border-box;
+p {  margin-bottom: 0; }
+
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #308df7 !important;
+  border-color: #308df7 !important;
+  font-weight: 700;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #1378bb !important;
+  border-color: #1378bb !important;}
+
+button:hover{
+outline: none;
+box-shadow: none;
+}
+
+button:focus{
+outline: none;
+box-shadow: none;
+}
+button:active{
+outline: none;
+box-shadow: none;
+}
+
+a { color: #265196; }
+
+@media screen and (max-width: 768px) {
+
+
+img {
+    height: auto;
+}
+.container-tab {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.static-banner {
+  position: relative !important;
+  top: 90px !important;
+}
+
+.mainpage {
+top: 90px;
+margin-bottom: 125px;
+
+}
+}
+
+
+@media (max-width: 480px) and (min-width: 320px) {
+  
+img {
+    height: auto;
+}
+iframe {
+    height: 240px;
+}
+}
+
+.blue_btn {
+background-color: #265196!important;
+border: 1px solid #265196!important;
+padding: 6px 20px!important;
+color: #fff !important;
+cursor: pointer;
+display: inline-block;
+}
+
+.blue_btn:hover {
+text-decoration: none;
+color: #fff !important;
 }

@@ -1,0 +1,60 @@
+.lead-form { 
+    border: 1px solid #b0b0b0 !important;
+    padding: 20px;
+}
+
+.lead-form input {
+    border: 0;
+    border-bottom: 1px solid #c5c5c5!important;
+    overflow: visible;
+    line-height: 24px;
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.sectionTitle {
+    word-break: break-word;
+    color: #5690d0;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1366px) {
+  
+    .sectionTitle {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .sectionTitle {
+        font-size: 26px;
+        
+    }
+    .sectionDes iframe {
+        width: 100%;
+    }
+    .productBanner {
+        position: relative;
+        height: 150px;
+        top: 90px;
+    }
+  
+    .breadcrumb-container {
+        top: 90px;
+    }
+   
+    
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .lead-form-col { 
+        padding-left:0% !important;
+        padding-right:0% !important;}
+   
+   .sectionTitle {
+        font-size: 19px;} 
+}
+
+    
